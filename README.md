@@ -14,4 +14,9 @@ This notebook contains classification using CNN. Here opencv is used for importi
 his notebook contains classification using CNN and own activation.
 f(x)=x/(1+exp(-x))
 
-I got to know about this function by doing some research. This function does no
+I got to know about this function by doing some research. This function does not fully ignore negative vlues but gives small negative values for corresponding hence not completely ignoring its feature.
+
+## Performance
+Both the model are same in all espect like dataset, number of convloution layer, number of dense layer, number of nodes and number of steps used for training. The only thing where they differ is acivation function.
+
+With relu it has accuracy of  on validation set where as other acivation it has accuracy of
