@@ -19,4 +19,4 @@ I got to know about this function by doing some research. This function does not
 ## Performance
 Both the model are same in all espect like dataset, number of convloution layer, number of dense layer, number of nodes and number of steps used for training. The only thing where they differ is acivation function.
 
-With relu it has accuracy of  on validation set where as other acivation it has accuracy of
+With relu it has accuracy of 90.38%  with loss 0.64 on validation set where other acivation has accuracy of 90.39 and loss 0.61
